@@ -1,0 +1,9 @@
+### Methods vs Functions
+
+In PySpark, a method is a function that is associated with a specific object, while a function is a standalone block of code that can be called from anywhere in the program.
+
+Methods in PySpark are similar to methods in other object-oriented programming languages, where they are used to define behaviors or actions that can be performed on an object of a particular class. For example, the select() method in PySpark's DataFrame class is used to select a subset of columns from a DataFrame object.
+
+Functions in PySpark are standalone blocks of code that are not associated with any specific object or class. They can be defined using the def keyword and can be called from anywhere in the program. For example, the col() function in PySpark's pyspark.sql.functions module is used to create a column expression from a column name.
+
+In summary, the key difference between methods and functions in PySpark is that methods are associated with a specific object or class, while functions are standalone blocks of code that can be called from anywhere in the program.
